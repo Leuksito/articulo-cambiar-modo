@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#fotoTitulo {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+}
+
+#titulo {
+    color: #6B1500;
+    font-family: "Creepster", system-ui;
+    font-size: 70px;
+    text-align: center;
+    -webkit-text-stroke: 0.01px red;
+    margin: -5px;
+}
+
+#titulo2 {
+    color: #7B7B7B;
+    font-family: "Creepster", system-ui;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#portada {
+    width: 250px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 65px;
+}
+
+.texto h2 {
+    font-family: "Creepster", system-ui;
+    color: red;
+}
+
+.texto p {
+    margin-top: -12px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+#foto {
+    width: 400px;
+    border-style: solid;
+    border-color: red;
+    right: 0;
+    position: absolute;
+    top: 130px;
+}
+
+#foto2 {
+    width: 300px;
+    border-style: solid;
+    border-color: red;
+    right: 50px;
+    position: absolute;
+    margin-top: -250px;
+}
+
+#foto3 {
+    width: 100px;
+    margin-left: -250px
+}
+
+.final {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
